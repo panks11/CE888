@@ -1,3 +1,5 @@
-# CE888
-CE888 - Data Science and Decision Making: Repository contains practice and assignment code
-** Currently Public **
+# Sequence-to-Sequence Model
+Seq2Seq.ipynb contains the data exploartion code for Spider Dataset
+
+# spider Folder
+Uploaded train,train_others and dev json files 
