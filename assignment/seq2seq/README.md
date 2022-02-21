@@ -1,5 +1,5 @@
-# Sequence-to-Sequence Model
+## Assignment : Part 1 :Sequence-to-Sequence Model
 Seq2Seq.ipynb contains the data exploartion code for Spider Dataset
 
-# spider Folder
+## spider Folder
 Uploaded train,train_others and dev json files 
