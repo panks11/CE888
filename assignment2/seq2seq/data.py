@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 EOS = '[end]'
 SOS = '[start]'  
 test_size = 0.2
+BATCH_SIZE = 64
 #################################
 
 warnings.filterwarnings('ignore')
