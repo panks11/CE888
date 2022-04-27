@@ -14,6 +14,9 @@ EOS = '[end]'
 SOS = '[start]'  
 test_size = 0.2
 BATCH_SIZE = 64
+Max_Vocab_Size = 5000
+embedding_dim = 256
+units = 1024
 #################################
 
 warnings.filterwarnings('ignore')
@@ -79,6 +82,24 @@ class Train_Data():
         Returns SQL in Dataframe Rows as List
         '''
         return self.df_train['query'].values.tolist()
+    
+    @property          
+    def test_questions(self):
+        ''' 
+        Returns
+        ------------
+        Returns English Questions in Dataframe Rows as List
+        '''
+        return self.df_test.question.values.tolist()
+    
+    @property
+    def test_sql(self):
+        '''
+        Returns
+        ------------
+        Returns SQL in Dataframe Rows as List
+        '''
+        return self.df_test['query'].values.tolist()
     
     @property          
     def question_tokens(self):
