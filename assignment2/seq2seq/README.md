@@ -24,9 +24,8 @@
 - Second, load the data and select the Train and Test data, update the paths in data.py and run:
 ```
 python -m data.py
-```
 Use data_collection_explained.ipynb to understand the Data collection Process and Graphs
-
+```
 - Third, clean, standardize and vectorize the data:
 ```
 Use data_preparation_explained to understand the Data Preparation Process
