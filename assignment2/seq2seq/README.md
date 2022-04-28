@@ -22,7 +22,7 @@ First, prepare data. Donwload Spider data and GloVe and nltk corpus
 (downloaded to `$HOME/data`)
 ```
 
-Second, load the data and select the Train and Test data:
+Second, load the data and select the Train and Test data, update the paths in data.py and run:
 ```
 python -m data.py
 ```
