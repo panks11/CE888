@@ -6,4 +6,4 @@ CE888 - Data Science and Decision Making: Repository contains practice and assig
 For Verification
 
 ```
-assignment 2 contains the code for Sequence to Sequence Translation model
+assignment 2 contains the final code for Sequence to Sequence Translation model
