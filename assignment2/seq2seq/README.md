@@ -36,14 +36,14 @@ First Experiment : NMT with Attention Layer (Custom Embedding)
 ```
 Run nmt_attention_model.ipynb to train NMT with Attention Layer  Model (Custom Embedding)
 ```
-Model in train.py
+See train.py for model architecture 
 
 
 Second Experiment : NMT with Attention Layer (Glove Embedding)
 ```
 Run nmt_attention_with_embedding.ipynb to train NMT with Attention Layer  Model (Glove Embedding)
 ```
-Model in train.py
+See train.py for model architecture
 
 Third Experiment : Encoder Decoder Architechture 
 ```
@@ -52,7 +52,8 @@ Run enc_dec.ipynb to train and evaluate basic Encoder Decoder Model
 
 ## 3. Accuracy
 
-###Test Data
+1. Below accuracy is Exact Match accuarcy , i.e. when the Target SQL and Actual SQL match excped case conversion and whitespace
+2. A seperate Testing data is utilzed for Test accuracy
 
 |      Model                                    | Exact Match (%) |
 | ----------------------------------------------|:---------------:|
