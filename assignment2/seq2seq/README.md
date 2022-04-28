@@ -18,34 +18,34 @@
 
 
 ## 1. Pre-processing
-First, prepare data. Donwload Spider data and GloVe and nltk corpus
+- First, prepare data. Donwload Spider data and GloVe and nltk corpus
 (downloaded to `$HOME/data`)
 
-Second, load the data and select the Train and Test data, update the paths in data.py and run:
+- Second, load the data and select the Train and Test data, update the paths in data.py and run:
 ```
 python -m data.py
 ```
 Use data_collection_explained.ipynb to understand the Data collection Process and Graphs
 
-Third, clean, standardize and vectorize the data:
+- Third, clean, standardize and vectorize the data:
 ```
 Use data_preparation_explained to understand the Data Preparation Process
 ```
 ## 2. Training and Inference
-First Experiment : NMT with Attention Layer (Custom Embedding)
+- First Experiment : NMT with Attention Layer (Custom Embedding)
 ```
 Run nmt_attention_model.ipynb to train NMT with Attention Layer  Model (Custom Embedding)
 ```
 See train.py for model architecture 
 
 
-Second Experiment : NMT with Attention Layer (Glove Embedding)
+- Second Experiment : NMT with Attention Layer (Glove Embedding)
 ```
 Run nmt_attention_with_embedding.ipynb to train NMT with Attention Layer  Model (Glove Embedding)
 ```
 See train.py for model architecture
 
-Third Experiment : Encoder Decoder Architechture 
+- Third Experiment : Encoder Decoder Architechture 
 ```
 Run enc_dec.ipynb to train and evaluate basic Encoder Decoder Model
 ```
