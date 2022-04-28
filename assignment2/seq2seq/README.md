@@ -11,10 +11,9 @@
 #### Python Packages
 - tensorflow (deep learning library)
 - tensorboard (Deep Learning Graphs and Charts)
-- nltk (NLP tools)
-- tqdm (progress bar)
 - matplotlib (for visaulization)
 - sklearn (Data Split)
+- pandas (Read Json)
 
 
 ## 1. Pre-processing
